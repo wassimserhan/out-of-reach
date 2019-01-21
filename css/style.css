@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* Reset */
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', Arial, Helvetica,sans-serif;
   line-height: 1.4;
 }
 
@@ -19,6 +19,7 @@ a {
 
 p {
   margin: 0.75rem 0;
+  line-height: 1.5rem;
 }
 
 /* Utility Classes */
@@ -57,12 +58,14 @@ p {
   font-size: 4rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
+  font-weight: 400;
 }
 
 .m-heading {
   font-size: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
+   font-weight: 400;
 }
 
 .py-1 { padding: 1.5rem 0; }
@@ -80,6 +83,7 @@ p {
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .btn:hover {
@@ -115,6 +119,7 @@ p {
 
 #showcase .container {
   display: flex;
+  justify-content: center;
 }
 
 #showcase .container img {
@@ -125,8 +130,18 @@ height: 400px;
 
 /* Author */
 
-#author img {
-    border-radius: 50%;
+#author .container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#author .container img {
+  display: block;
+  height: 360px;
+  width: 430px;
+  /* border-radius: 50%; */
+  
 }
 
 #author .center{
@@ -136,11 +151,6 @@ height: 400px;
   width: 50%;
 }
 
-/* Testimonials */
-/* #testimonials {
-  height: 600px;
-  padding-top: 100px;
-} */
 
 #testimonials h2 {
   color: #000;
