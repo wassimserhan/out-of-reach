@@ -22,30 +22,40 @@
   <li><a href="#home">Home</a></li>
   <li><a href="#author">Author</a></li>
   <li><a href="#testimonials">Testimonials</a></li>
-    <li><a href="#contact">Contact</a></li>
+  <li><a href="#contact-form">Contact</a></li>
 </ul>
 </nav>
 
 <!-- Header: Showcase -->
 <header id="showcase">
-  <div class="showcase-img"></div>
+<div class="container p-1">
+  <img src="../img/book-cover2.jpg" alt="Out of Reach">
   <div class="showcase-text p-2">
-    <h1 class="m-heading">Out of Reach</h1>
-    <p>Out of Reach is a memoir by Palestinian American author Layla Noor who was born in Gaza in 1946 during the height of
+  <h1 class="m-heading">Out of Reach</h1>
+  <p>Out of Reach is a memoir by Palestinian American author Layla Noor who was born in Gaza in 1946 during the height
+    of
     conflict in Palestine. She wanted to chase a dream of success and love and this journey took her to many exotic
     locations around the world. Layla’s tale chronicles her life from near death, war time experiences and multiple
-    heartbreaks, to the strength and resilience which would see her succeed in the face of adversity.<br><br> Out of Reach reveals
-    her dramatic love story with a Jewish American man in an unlikely relationship that symbolizes the surprising situation
-    in which strong love can be found. Layla’s positive attitude and unwillingness to give up serve as an inspiration to
+    heartbreaks, to the strength and resilience which would see her succeed in the face of adversity.<br><br> Out of
+    Reach reveals
+    her dramatic love story with a Jewish American man in an unlikely relationship that symbolizes the surprising
+    situation
+    in which strong love can be found. Layla’s positive attitude and unwillingness to give up serve as an inspiration
+    to
     readers and a testament to people’s ability to look past their differences and origin. A compelling story of an
-    outgoing, independent Middle Eastern woman who lives life to the fullest and has learned the harsh lessons of her life
-    through, romance, loss, and deceit. 
-    </p>
+    outgoing, independent Middle Eastern woman who lives life to the fullest and has learned the harsh lessons of her
+    life
+    through, romance, loss, and deceit.
+  </p>
   <div class="btn">
-    <a href="https://www.amazon.com/Out-Reach-Layla-Noor-ebook/dp/B00IERIGCA/ref=sr_1_1?ie=UTF8&qid=1548022295&sr=8-1&keywords=out+of+reach+layla+noor" target="_blank" rel="noopener">Available from Amazon</a>
-  </div> 
-  
+    <a href="https://www.amazon.com/Out-Reach-Layla-Noor-ebook/dp/B00IERIGCA/ref=sr_1_1?ie=UTF8&qid=1548022295&sr=8-1&keywords=out+of+reach+layla+noor"
+      target="_blank" rel="noopener">Available from Amazon</a>
+  </div>
+
+  </div>
+    
 </div>
+  
 </header>
 
 <!-- Section: Trailer -->
@@ -61,25 +71,25 @@
 
 <!-- Section: Author -->
 <section id="author" class="bg-light">
-
+<div class="container">
 <div class="author-text p-2">
   <h2 class="m-heading text-center">
     About Layla Noor
   </h2>
-  <p>Layla Noor is a Palestinian-American and a mother of two. She studied Interior Decoration at KLC in London. She is a
-  freelancer and currently resides in South Florida. Since her teenage years, she dreamed of writing her story, but she
-  put this dream on hold to focus on her family. Finally in 2011 she had the inspiration to write her story, “Out of
-  Reach”</p>
-  
+  <p>Layla Noor is a Palestinian-American and a mother of two. She studied Interior Decoration at KLC in London. She is a freelancer and currently resides in South Florida. Since her teenage years, she dreamed of writing her story, but she put this dream on hold to focus on her family. Finally in 2011 she had the inspiration to write her story, “Out of Reach”.</p>
+
 </div>
-<div class="author-img p-1"></div>
+<img class="center p-3" src="../img/author-img.jpg" alt="Layla Noor">
+
+</div>
+
 </section>
 
 <!-- Section: Testimonils -->
 
 <section id="testimonials" class="py-3">
   <div class="container">
-    <h2 class="m-heading">What Readers Are Saying</h2>
+    <h2 class="m-heading p-2">What Readers Are Saying</h2>
     <div class="testimonial bg-dark">
       
       <p>A brave and courageous woman, very interesting, you can't drop the book until you finish reading it. - Lulu</p>
@@ -113,7 +123,7 @@
   <div class="container">
     <h1 class="m-heading">Inquiries</h1>
     <p>Please fill out the form below to contact us</p>
-    <form action="process.php">
+    <form name="contact" method="POST" data-netlify="true">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" name="name" id="name">

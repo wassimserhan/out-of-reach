@@ -113,50 +113,39 @@ p {
 
 /* Showcase */
 
-#showcase {
+#showcase .container {
   display: flex;
-    /* height: 70vh; */
 }
 
-#showcase div {
-  flex: 1;
-  
-
+#showcase .container img {
+display: block;
+width: 25%;
+height: 400px;
 }
-
-#showcase .showcase-img {
-  background: url('../img/book-cover2.jpg') no-repeat center center/cover;
-  background-size: 40%;
-}
-
-
 
 /* Author */
-#author {
-  display: flex;
+
+#author img {
+    border-radius: 50%;
 }
 
-#author div {
-  flex: 1;
-}
-
-#author .author-img {
-  background: url('../img/author-img.jpg') no-repeat;
-/* border-radius: 50%; */
-background-size: 40%;
+#author .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Testimonials */
-#testimonials {
+/* #testimonials {
   height: 600px;
-  background: url('../img/test-bg.jpg') no-repeat center center/cover;
   padding-top: 100px;
-}
+} */
 
 #testimonials h2 {
   color: #000;
   text-align: center;
-  padding-bottom: 40px;
+
 }
 
 #testimonials .testimonial {
